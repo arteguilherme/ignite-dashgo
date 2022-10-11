@@ -86,7 +86,7 @@ export default function UserList() {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {data.users.map((user: User) => {
+                  {data.users.map((user: User) => (
                     <Tr key={user.id}>
                       <Td px={["4", "4", "6"]}>
                         <Checkbox colorScheme="pink" />
@@ -104,8 +104,8 @@ export default function UserList() {
                           <Text fontWeight="bold">{user.createdAt}</Text>
                         )}
                       </Td>
-                    </Tr>;
-                  })}
+                    </Tr>
+                  ))}
                 </Tbody>
               </Table>
               <Pagination />

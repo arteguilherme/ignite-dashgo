@@ -1,10 +1,11 @@
 import { Stack } from "@chakra-ui/react";
 import {
   RiContactsLine,
-  RiDashboardLine,
   RiGitMergeLine,
+  RiDashboardLine,
   RiInputMethodLine,
 } from "react-icons/ri";
+
 import NavLink from "./NavLink";
 import NavSection from "./NavSection";
 
